@@ -1,6 +1,33 @@
 /* google font */
 @import url("http://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap");
 
+/* variables */
+:root {
+    /* font */
+    --ff: "Inter", sans-serif;
+    --fs-base: 15px;
+    --fw-regular: 400;
+    --fw-bold: 700;
+    --fw-extrabold: 800;
+    /* color */
+    /* color general */
+    --clr-primary: hsl(5, 85%, 63%);
+    --clr-secondary: hsl(35, 77%, 62%);
+    --clr-neutral-100: hsl(36, 100%, 99%);
+    --clr-neutral-200: hsl(233, 8%, 79%);
+    --clr-neutral-300: hsl(236, 13%, 42%);
+    --clr-neutral-400: hsl(240, 100%, 5%);
+    /* color specific roles */
+    --clr-background-light: var(--clr-neutral-100);
+    --clr-background-dark: var(--clr-neutral-400);
+    --clr-base-light: var(--clr-neutral-300);
+    --clr-base-dark: var(--clr-neutral-100);
+    --clr-heading-light: var(--clr-neutral-100);
+    --clr-heading-dark: var(--clr-neutral-400);
+    --clr-heading-accent: var(--clr-secondary);
+    --clr-button: var(--clr-primary);
+}
+
 /* reset */
 /* box-sizing model */
 *,
