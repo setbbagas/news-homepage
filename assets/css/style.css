@@ -1,0 +1,60 @@
+/* google font */
+@import url("http://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap");
+
+/* reset */
+/* box-sizing model */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* remove default margin */
+* {
+    margin: 0;
+}
+
+/*  Allow percentage-based heights in the application */
+html,
+body {
+    height: 100%;
+}
+
+/* tweaking line height */
+body {
+    line-height: 1.5;
+}
+
+/* font smooting */
+body {
+    -webkit-font-smoothing: antialiased;
+}
+
+/* media defaults */
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+}
+
+/* inherit font for form controls */
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+/* word wrapping */
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    overflow-wrap: break-word;
+}
